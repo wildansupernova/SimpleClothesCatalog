@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@font-face{font-family:devicon;src:url(font/devicon.eot?-hdf3wh);src:url(font/devicon.eot?#iefix-hdf3wh) format('embedded-opentype'),url(font/devicon.woff?-hdf3wh) format('woff'),url(font/devicon.ttf?-hdf3wh) format('truetype'),url(font/devicon.svg?-hdf3wh#devicon) format('svg');font-weight:400;font-style:normal}[class*=" devicon-"],[class^=devicon-]{font-family:devicon;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face {
+  font-family: 'entypo';
+  src: url('font/entypo.eot');
+  src: url('font/entypo.eot?#iefix') format('embedded-opentype'),
+       url('font/entypo.woff') format('woff'),
+       url('font/entypo.ttf') format('truetype'),
+       url('font/entypo.svg#entypo') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: entypo;
+  font-style: normal;
+
+  /* font-size: 14px; */
+
+  display: inline-block;
+  width: 1.1em;
+  margin-right: .1em;
+  text-align: center;
+}
+
+.the-icons li {
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+}
+
+/*Bukan template hanya untuk font*/ 
+.icon-phone:before {
+  content: "\1f4dE";
+}
+.icon-google:before{ content:'\F30F'; }
+.icon-instagrem:before { content: "\f32d"; } /* '\f32d' */
+.icon-twitter:before { content: "\f309"; } /* '\f309' */
+.icon-twitter-circled:before { content: "\f30a"; } /* '\f30a' */
+.icon-facebook:before { content: "\f30c"; } /* '\f30c' */
+.devicon-python-plain-wordmark:before{content:"\eb88"}
+.devicon-mysql-plain-wordmark:before{content:"\eb60"}
+.devicon-mysql-plain:before{content:"\eb61"}
+.devicon-php-plain:before{content:"\eb71"}
+.devicon-javascript-plain:before{content:"\e845"}
+.devicon-cplusplus-plain:before{content:"\e635"}
+.devicon-python-plain:before{content:"\eb89"}
